@@ -1,135 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="dropDown.css">
-    <link rel="stylesheet" href="pop.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dropDown.css">
+  <link rel="stylesheet" href="pop.css">
+  <title>Document</title>
 </head>
+
 <body>
-    <div class="container oo">
-        <nav>
-            <div class="dropdown">
-                <button id="add" class="dropbtn">Configuration</button>
-                <div class="dropdown-content">
-                    <a  class="blinking-text" href="./page/AddNewFin.html">Add New Financial Year</a>
-                    <a href="#">Build Database</a>
-                    <a href="#">Client Registration</a>
-                    <a href="#">New Financial Year</a>
-                    <a href="#">Annual Maintenance</a>
-                    <a href="#">Optimising Imported Data</a>
-                    <a href="#">Export Distributed Purchase</a>
-                    <a href="#">Export Distributed Sale</a>
-                    <a href="#">Import Data</a>
-                    <a href="#">Forcefully Optimising</a>
-                    <a href="#">Create Batch File</a>
-                    <a href="#">Update Table</a>
-                    <a href="#">Update Field Length</a>
-                    <a href="#">Update DataQuest</a>
-                </div>
-            </div>
-            <h1>Master</h1>
-            <h1>Branch</h1>
-            <h1>Transaction</h1>
-            <div class="dropdown">
-                <button class="blinking-text" id="remove" class="dropbtn">System</button>
-                <div class="dropdown-content">
-                    <a href="#" class="blinking-text" id="openPopup">Backup</a>
-                    <a href="#">Restore</a>
-                    <a href="#">Import/Export Data on LAN</a>
-                    <a href="#">Product Transfer <span class="shortcut">Alt + T</span></a>
-                    <a href="#">Barcode</a>
-                    <a href="#">D.P. Status-1 <span class="shortcut">Alt + F1</span></a>
-                    <a href="#">D.P. Status-2 <span class="shortcut">Alt + F2</span></a>
-                    <a href="#">D.P. Status-3 <span class="shortcut">Alt + F3</span></a>
-                    <a href="#">D.P. Status-4 <span class="shortcut">Alt + F4</span></a>
-                    <a href="#">AIOCD Report</a>
-                    <a href="#">IMS Report</a>
-                    <a href="#">Purchase Receive No</a>
-                    <a href="#">Rack Expiring Entry</a>
-                    <a href="#">Password</a>
-                    <a href="#">Add Image</a>
-                    <a href="#">Sale Bill At P. Rate</a>
-                    <a href="#">Convert Data In New Mode</a>
-                    <a href="#">Repair <span class="shortcut">Alt + R</span></a>
-                    <a href="#">Manual Restore</a>
-                    <a href="#">Pharmarack Export</a>
-                    <a href="#">E-Invoice JSON Export</a>
-                    <a href="#">E-Invoice</a>
-                </div>
-            </div>
-            <h1>Invintory</h1>
-        </nav>
-         
-        
-
-        <div id="popup" class="popup">
-            <div class="popup-content">
-                <span class="close">&times;</span>
-                <form id="backupForm">
-                    <h3>ALLOW WEB BACKUP</h3>
-                    <div class="radio-group">
-                        <label>
-                            <input type="radio" name="webBackup" value="yes"> YES
-                        </label>
-                        <label>
-                            <input type="radio" name="webBackup" value="no" checked> NO
-                        </label>
-                    </div>
-    
-                    <div>
-                        <label for="year">SELECT THE YEAR</label>
-                        <select id="year">
-                            <option value="T24">T24</option>
-                            <option value="T23">T23</option>
-                            <option value="T22">T22</option>
-                        </select>
-                    </div>
-    
-                    <div>
-                        <label for="drive">SELECT THE DRIVE</label>
-                        <input type="text" id="drive" value="E">
-                    </div>
-    
-                    <h3>Drive Option</h3>
-                    <div class="radio-group">
-                        <label>
-                            <input type="radio" name="driveOption" value="dropbox"> Dropbox
-                        </label>
-                        <label>
-                            <input type="radio" name="driveOption" value="googleDrive" checked> Google Drive
-                        </label>
-                    </div>
-    
-                    <div class="action-buttons">
-                        <button type="button" class="blinking-text" id="open-terminal-btn">Apply</button>
-                        <button type="button" id="cancelBtn">Cancel</button>
-                    </div>
-                </form>
-            </div>
+  <div class="container oo">
+    <nav>
+      <div class="dropdown">
+        <button id="add" class="dropbtn">Configuration</button>
+        <div class="dropdown-content">
+          <a href="#">Build Database</a>
+          <a href="#">Client Registration</a>
+          <a href="#">New Financial Year</a>
+          <a href="#">Annual Maintenance</a>
+          <a href="#">Optimising Imported Data</a>
+          <a href="#">Export Distributed Purchase</a>
+          <a href="#">Test1</a>
+          <a href="#">Test2</a>
+          <a href="#">Test3</a>
+          <a href="#">Import Distributed Purchase</a>
+          <a href="#">Import Distributed Sale</a>
+          <a class="blinking-text" href="./page/AddNewFin.html">Add New Financial Year</a>
+          <a href="#">Graph</a>
+          <a href="#">ChequeMG</a>
+          <a href="#">Consolidate ProductMaps</a>
         </div>
-        
+      </div>
+      <h1>Master</h1>
+      <h1>Branch</h1>
+      <h1>Transaction</h1>
+      <div class="dropdown">
+        <button class="blinking-text" id="remove" class="dropbtn">System</button>
+        <div class="dropdown-content">
+          <a href="#" class="blinking-text" id="openPopup">Backup</a>
+          <a href="#">Restore</a>
+          <a href="#">Import/Export Data on LAN</a>
+          <a href="#">Product Transfer <span class="shortcut">Alt + T</span></a>
+          <a href="#">Barcode</a>
+          <a href="#">D.P. Status-1 <span class="shortcut">Alt + F1</span></a>
+          <a href="#">D.P. Status-2 <span class="shortcut">Alt + F2</span></a>
+          <a href="#">D.P. Status-3 <span class="shortcut">Alt + F3</span></a>
+          <a href="#">D.P. Status-4 <span class="shortcut">Alt + F4</span></a>
+          <a href="#">AIOCD Report</a>
+          <a href="#">IMS Report</a>
+          <a href="#">Purchase Receive No</a>
+          <a href="#">Rack Expiring Entry</a>
+          <a href="#">Password</a>
+          <a href="#">Add Image</a>
+          <a href="#">Sale Bill At P. Rate</a>
+          <a href="#">Convert Data In New Mode</a>
+          <a href="#">Repair <span class="shortcut">Alt + R</span></a>
+          <a href="#">Manual Restore</a>
+          <a href="#">Pharmarack Export</a>
+          <a href="#">E-Invoice JSON Export</a>
+          <a href="#">E-Invoice</a>
+        </div>
+      </div>
+      <h1>Invintory</h1>
+    </nav>
 
-        <div id="terminal-popup">
-            <div class="terminal-header">
-              <div class="buttons">
-                <span class="close-btn blinking-text" id="close-terminal-btn"></span>
-                <span class="minimize-btn"></span>
-                <span class="maximize-btn"></span>
-              </div>
-              <span class="terminal-title">Terminal</span>
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <div style="width: 100%; display: flex; justify-content: space-between; align-items: center; background-color: #f1f1f1; padding: 10px; font-size: 20px;">
+                <h5>Form Backup</h5> 
+                <span class="close">&times;</span>
+        </div>
+        <form id="backupForm">
+          <div style="display: flex; justify-content: space-between; justify-content: space-between; margin-top: 10px;">
+            <h3>ALLOW WEB BACKUP</h3>
+            <div class="radio-group">
+              <label>
+                <input type="radio" name="webBackup" value="yes"> YES
+              </label>
+              <label>
+                <input type="radio" name="webBackup" value="no" checked> NO
+              </label>
             </div>
-            <div class="terminal-body">
-              <pre>
+          </div>
+
+          <div style="display: flex; justify-content: space-between; justify-content: space-between; margin-top: 10px;">
+            <h3 for="year">SELECT THE YEAR</h3>
+            <select style="width: 95px;" id="year">
+              <option value="T24">T24</option>
+              <option value="T23">T23</option>
+              <option value="T22">T22</option>
+            </select>
+          </div>
+
+          <div  style="display: flex; justify-content: space-between; justify-content: space-between; margin-top: 10px;">
+            <h3 for="drive">SELECT THE DRIVE</h3>
+            <input style="width: 95px;" type="text" id="drive" value="E">
+          </div>
+
+          <div style="display: flex; justify-content: space-between; justify-content: space-between; margin-top: 10px;">
+            <h3>Drive Option</h3>
+            <div style="width: 45%;" class="radio-group">
+              <label>
+                <input type="radio" name="driveOption" value="dropbox"> Dropbox
+              </label>
+              <label>
+                <input type="radio" name="driveOption" value="googleDrive" checked> Google Drive
+              </label>
+            </div>
+          </div>
+
+          <div class="action-buttons">
+            <button type="button" class="blinking-text" id="open-terminal-btn">Apply</button>
+            <button type="button" id="cancelBtn">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <div id="terminal-popup">
+      <div class="terminal-header">
+        <div class="buttons">
+          <span class="close-btn blinking-text" id="close-terminal-btn"></span>
+          <span class="minimize-btn"></span>
+          <span class="maximize-btn"></span>
+        </div>
+        <span class="terminal-title">Terminal</span>
+      </div>
+      <div class="terminal-body">
+        <pre>
                 Welcome to the terminal...
                 $ echo Hello World
                 Hello World
               </pre>
-            </div>
-          </div>
+      </div>
     </div>
-    <script src="./javascript/pop.js"></script>
+  </div>
+  <script src="./javascript/pop.js"></script>
 </body>
+
 </html>

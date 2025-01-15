@@ -24,15 +24,17 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
+#backupForm{
+  padding: 18px 24px;
+}
 
 .popup-content {
     background-color: #f1f1f1;
     margin: 15% auto;
-    padding: 20px;
     border: 1px solid #888;
-    width: 300px;
+    width: 500px;
     border-radius: 10px;
-    background: linear-gradient(to right, #f9e29a, #c692ff);
+    background: linear-gradient(45deg, #f9e29a, #214fda);
 }
 
 h3 {
@@ -54,11 +56,12 @@ h3 {
 
 .action-buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     margin-top: 15px;
 }
 
 button {
+    margin: 3px;
     padding: 8px 20px;
     font-size: 14px;
     border: none;
