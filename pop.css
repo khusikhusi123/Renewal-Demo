@@ -102,7 +102,7 @@ button {
   
   .terminal-header {
     background-color: #3b3f45;
-    padding: 10px;
+    padding: 8px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,9 +118,6 @@ button {
     margin-right: 8px;
   }
   
-  .close-btn {
-    background-color: #ff5f56;
-  }
   
   .minimize-btn {
     background-color: #ffbd2e;
